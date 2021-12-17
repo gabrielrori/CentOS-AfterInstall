@@ -1,0 +1,65 @@
+﻿
+
+# Instalación de drivers de NVIDIA y CUDA en Rocky Linux
+
+## Actualizar Rocky Linux
+
+Logear como administrador
+```sh
+sudo su
+```
+Actualizar Rocky linux
+```sh
+sudo dnf upgrade --refresh -y
+```
+Verificar que se está en root
+```sh
+sudo whoami
+```
+## Preinstalar dependenciaas 
+
+Importar EPEL (Extra Packages for Enterprise Linux) 
+```sh
+sudo dnf install epel-release -y
+```
+Agregar repositorio de Nvidia
+```sh
+sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo
+```
+Instalar los kernel-devel y headers que usará los drivers de Nvidia
+```sh
+sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
+presion "y"
+```
+## Instalación de drivers de Nvidia
+```sh
+sudo dnf install nvidia-driver nvidia-settings
+```
+Presionar "y"
+
+Note: during the installation, you will be prompted to import the GPG key as follows
+
+## Instalación de los drivers de CUDA
+```sh
+sudo dnf install cuda-driver
+```
+Presionar "y"
+```sh
+reboot now
+```
+
+## Luego de instalar verificar instalación
+```sh
+nvidia-smi
+```
+## Instalación de Neofetch
+
+Alternatively, install Neofetch to print out a fancy printout of your system with EPEL
+```sh
+sudo dnf install neofetch -y
+```
+```sh
+neofetch
+```
+
+----------------------------------------------------------------------------
