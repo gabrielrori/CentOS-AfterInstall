@@ -26,5 +26,10 @@ Agregar la siguiente línea en la sección [daemon]:
 ```sh
 DefaultSession=gnome-xorg.desktop
 ```
+```sh
+reboot now
+```
+
+
 
 
