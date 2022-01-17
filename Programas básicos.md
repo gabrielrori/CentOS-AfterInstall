@@ -1,4 +1,4 @@
-#Programas básicos
+# Programas básicos
 Actualizar los paquetes y volver a cargar el repositorio
 ```sh
 sudo dnf update -y 
