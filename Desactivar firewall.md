@@ -11,6 +11,8 @@ systemctl status firewalld
 Detener y deshabilitar firewall:
 ```sh
 sudo systemctl stop firewalld
+```
+```sh
 sudo systemctl disable firewalld
 ```
 Comprobar que se detuvo el firewall (dead):
