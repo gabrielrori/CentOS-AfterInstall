@@ -26,7 +26,6 @@ sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute
 Instalar los kernel-devel y headers que usará los drivers de Nvidia
 ```sh
 sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
-presion "y"
 ```
 ## Instalación de drivers de Nvidia
 ```sh
