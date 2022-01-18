@@ -31,9 +31,6 @@ sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
 ```sh
 sudo dnf install nvidia-driver nvidia-settings
 ```
-Presionar "y"
-
-Note: during the installation, you will be prompted to import the GPG key as follows
 
 ## Instalación de los drivers de CUDA
 ```sh
