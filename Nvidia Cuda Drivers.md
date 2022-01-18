@@ -8,7 +8,7 @@ Logear como administrador
 ```sh
 sudo su
 ```
-Actualizar Rocky linux
+Actualizar repositorios y paquetes de Rocky linux
 ```sh
 sudo dnf upgrade --refresh -y
 ```
