@@ -12,6 +12,8 @@ sudo su
 Modificar el archivo de configuración, posible en 2 ubicaciones:
 ```sh
 vi /etc/gdm3/custom.conf
+```
+```sh
 vi /etc/gdm/custom.conf
 ```
 En insert mode:
