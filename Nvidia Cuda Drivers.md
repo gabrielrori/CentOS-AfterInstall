@@ -12,10 +12,7 @@ Actualizar Rocky linux
 ```sh
 sudo dnf upgrade --refresh -y
 ```
-Verificar que se está en root
-```sh
-sudo whoami
-```
+
 ## Preinstalar dependenciaas 
 
 Importar EPEL (Extra Packages for Enterprise Linux) 
