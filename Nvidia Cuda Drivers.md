@@ -4,9 +4,6 @@
 
 ## Actualizar Rocky Linux
 
-Logear como administrador
-```sh
-sudo su
 ```
 Actualizar repositorios y paquetes de Rocky linux
 ```sh
