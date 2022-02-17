@@ -53,3 +53,5 @@ neofetch
 ```
 
 ----------------------------------------------------------------------------
+
+Install package 'nvidia-driver-cuda' to provide command 
