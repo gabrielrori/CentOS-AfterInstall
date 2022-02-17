@@ -4,7 +4,7 @@
 
 ## Actualizar Rocky Linux
 
-```
+
 Actualizar repositorios y paquetes de Rocky linux
 ```sh
 sudo dnf upgrade --refresh -y
