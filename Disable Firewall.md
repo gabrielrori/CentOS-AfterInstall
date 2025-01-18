@@ -1,4 +1,4 @@
-﻿# Desactivar firewalls
+  ﻿# Desactivar firewalls
 Luego de la instalación de CentOS, desactivar el firewall para permitir la comunicación por ssh, programa de monitoreo y configuración de clusters
 Permisos de administrador:
 ```sh
