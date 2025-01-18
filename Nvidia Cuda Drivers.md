@@ -2,7 +2,7 @@
 
 # Instalación de drivers de NVIDIA y CUDA en Rocky Linux
 
-## Actualizar Rocky Linux
+## Actualizar Linux
 
 
 Actualizar repositorios y paquetes de Rocky linux
