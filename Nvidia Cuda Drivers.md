@@ -44,7 +44,6 @@ nvidia-smi
 ```
 ## Instalación de Neofetch
 
-Alternatively, install Neofetch to print out a fancy printout of your system with EPEL
 ```sh
 sudo dnf install neofetch -y
 ```
@@ -54,4 +53,3 @@ neofetch
 
 ----------------------------------------------------------------------------
 
-Install package 'nvidia-driver-cuda' to provide command 
