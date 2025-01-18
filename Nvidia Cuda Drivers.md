@@ -1,11 +1,11 @@
 ﻿
 
-# Instalación de drivers de NVIDIA y CUDA en Rocky Linux
+# Instalación de drivers de NVIDIA y CUDA en RPM Linux
 
 ## Actualizar Linux
 
 
-Actualizar repositorios y paquetes de Rocky linux
+Actualizar repositorios y paquetes de linux
 ```sh
 sudo dnf upgrade --refresh -y
 ```
